@@ -1,197 +1,704 @@
 [
-    {
-        "name": "Apple___Apple_scab",
-        "cause": "Fungus Venturia inaequalis. Favorable conditions are cool, wet weather.",
-        "cure": "Use fungicides and resistant apple varieties. Prune and destroy infected leaves."
+  {
+    "id": 0,
+    "name": {
+      "English": "Apple   Apple scab",
+      "Hindi": "",
+      "Marathi": ""
     },
-    {
-        "name": "Apple___Black_rot",
-        "cause": "Caused by the fungus Botryosphaeria obtusa.",
-        "cure": "Prune and remove infected areas. Apply fungicides during the growing season."
+    "cause": {
+      "English": "Fungus Venturia inaequalis. Favorable conditions are cool, wet weather.",
+      "Hindi": "Fungus Venturia inaequalis. Favorable conditions are cool, wet weather.",
+      "Marathi": "Fungus Venturia inaequalis. Favorable conditions are cool, wet weather."
     },
-    {
-        "name": "Apple___Cedar_apple_rust",
-        "cause": "Fungus Gymnosporangium juniperi-virginianae. Requires junipers as an alternate host.",
-        "cure": "Remove nearby juniper hosts. Use resistant varieties and fungicides."
-    },
-    {
-        "name": "Apple___healthy",
-        "cause": "No disease present.",
-        "cure": "Maintain good cultural practices for optimal health."
-    },
-    {
-        "name": "Background_without_leaves",
-        "cause": "No disease or plant detected.",
-        "cure": "Not applicable."
-    },
-    {
-        "name": "Blueberry___healthy",
-        "cause": "No disease present.",
-        "cure": "Maintain good cultural practices for optimal health."
-    },
-    {
-        "name": "Cherry___Powdery_mildew",
-        "cause": "Fungus Podosphaera clandestina.",
-        "cure": "Apply sulfur-based or fungicide treatments. Ensure good air circulation."
-    },
-    {
-        "name": "Cherry___healthy",
-        "cause": "No disease present.",
-        "cure": "Maintain good cultural practices for optimal health."
-    },
-    {
-        "name": "Corn___Cercospora_leaf_spot Gray_leaf_spot",
-        "cause": "Fungus Cercospora zeae-maydis.",
-        "cure": "Use resistant hybrids and fungicide sprays."
-    },
-    {
-        "name": "Corn___Common_rust",
-        "cause": "Fungus Puccinia sorghi.",
-        "cure": "Apply fungicides and plant resistant varieties."
-    },
-    {
-        "name": "Corn___Northern_Leaf_Blight",
-        "cause": "Fungus Exserohilum turcicum.",
-        "cure": "Use resistant varieties and fungicides."
-    },
-    {
-        "name": "Corn___healthy",
-        "cause": "No disease present.",
-        "cure": "Maintain good cultural practices for optimal health."
-    },
-    {
-        "name": "Grape___Black_rot",
-        "cause": "Fungus Guignardia bidwellii.",
-        "cure": "Prune infected areas and apply fungicides."
-    },
-    {
-        "name": "Grape___Esca_(Black_Measles)",
-        "cause": "Fungal complex including Phaeomoniella chlamydospora.",
-        "cure": "Remove infected wood. Avoid injuries to vines."
-    },
-    {
-        "name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
-        "cause": "Fungus Pseudocercospora vitis.",
-        "cure": "Apply fungicides and manage vineyard hygiene."
-    },
-    {
-        "name": "Grape___healthy",
-        "cause": "No disease present.",
-        "cure": "Maintain good cultural practices for optimal health."
-    },
-    {
-        "name": "Orange___Haunglongbing_(Citrus_greening)",
-        "cause": "Bacterium Candidatus Liberibacter spp. Spread by psyllid insects.",
-        "cure": "Control psyllid population and remove infected trees."
-    },
-    {
-        "name": "Peach___Bacterial_spot",
-        "cause": "Bacterium Xanthomonas campestris pv. pruni.",
-        "cure": "Use resistant varieties and copper-based bactericides."
-    },
-    {
-        "name": "Peach___healthy",
-        "cause": "No disease present.",
-        "cure": "Maintain good cultural practices for optimal health."
-    },
-    {
-        "name": "Pepper,_bell___Bacterial_spot",
-        "cause": "Bacterium Xanthomonas campestris pv. vesicatoria.",
-        "cure": "Use copper-based bactericides and resistant varieties."
-    },
-    {
-        "name": "Pepper,_bell___healthy",
-        "cause": "No disease present.",
-        "cure": "Maintain good cultural practices for optimal health."
-    },
-    {
-        "name": "Potato___Early_blight",
-        "cause": "Fungus Alternaria solani.",
-        "cure": "Apply fungicides and practice crop rotation."
-    },
-    {
-        "name": "Potato___Late_blight",
-        "cause": "Pathogen Phytophthora infestans.",
-        "cure": "Use resistant varieties and fungicides."
-    },
-    {
-        "name": "Potato___healthy",
-        "cause": "No disease present.",
-        "cure": "Maintain good cultural practices for optimal health."
-    },
-    {
-        "name": "Raspberry___healthy",
-        "cause": "No disease present.",
-        "cure": "Maintain good cultural practices for optimal health."
-    },
-    {
-        "name": "Soybean___healthy",
-        "cause": "No disease present.",
-        "cure": "Maintain good cultural practices for optimal health."
-    },
-    {
-        "name": "Squash___Powdery_mildew",
-        "cause": "Fungal pathogens including Erysiphe cichoracearum.",
-        "cure": "Apply sulfur-based fungicides and maintain good air circulation."
-    },
-    {
-        "name": "Strawberry___Leaf_scorch",
-        "cause": "Fungus Diplocarpon earlianum.",
-        "cure": "Remove infected leaves and apply fungicides."
-    },
-    {
-        "name": "Strawberry___healthy",
-        "cause": "No disease present.",
-        "cure": "Maintain good cultural practices for optimal health."
-    },
-    {
-        "name": "Tomato___Bacterial_spot",
-        "cause": "Bacterium Xanthomonas spp.",
-        "cure": "Apply copper-based bactericides and practice crop rotation."
-    },
-    {
-        "name": "Tomato___Early_blight",
-        "cause": "Fungus Alternaria solani.",
-        "cure": "Apply fungicides and remove infected leaves."
-    },
-    {
-        "name": "Tomato___Late_blight",
-        "cause": "Pathogen Phytophthora infestans.",
-        "cure": "Use resistant varieties and fungicides."
-    },
-    {
-        "name": "Tomato___Leaf_Mold",
-        "cause": "Fungus Passalora fulva.",
-        "cure": "Apply fungicides and ensure good ventilation."
-    },
-    {
-        "name": "Tomato___Septoria_leaf_spot",
-        "cause": "Fungus Septoria lycopersici.",
-        "cure": "Remove infected leaves and apply fungicides."
-    },
-    {
-        "name": "Tomato___Spider_mites Two-spotted_spider_mite",
-        "cause": "Spider mites Tetranychus urticae.",
-        "cure": "Use miticides or insecticidal soaps."
-    },
-    {
-        "name": "Tomato___Target_Spot",
-        "cause": "Fungus Corynespora cassiicola.",
-        "cure": "Apply fungicides and ensure good air circulation."
-    },
-    {
-        "name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
-        "cause": "Virus spread by whiteflies.",
-        "cure": "Control whitefly population and use resistant varieties."
-    },
-    {
-        "name": "Tomato___Tomato_mosaic_virus",
-        "cause": "Virus transmitted through contact and contaminated tools.",
-        "cure": "Remove infected plants and sterilize tools."
-    },
-    {
-        "name": "Tomato___healthy",
-        "cause": "No disease present.",
-        "cure": "Maintain good cultural practices for optimal health."
+    "cure": {
+      "English": "Use fungicides and resistant apple varieties. Prune and destroy infected leaves.",
+      "Hindi": "Use fungicides and resistant apple varieties. Prune and destroy infected leaves.",
+      "Marathi": "Use fungicides and resistant apple varieties. Prune and destroy infected leaves."
     }
+  },
+  {
+    "id": 1,
+    "name": {
+      "English": "Apple   Black rot",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Caused by the fungus Botryosphaeria obtusa.",
+      "Hindi": "Caused by the fungus Botryosphaeria obtusa.",
+      "Marathi": "Caused by the fungus Botryosphaeria obtusa."
+    },
+    "cure": {
+      "English": "Prune and remove infected areas. Apply fungicides during the growing season.",
+      "Hindi": "Prune and remove infected areas. Apply fungicides during the growing season.",
+      "Marathi": "Prune and remove infected areas. Apply fungicides during the growing season."
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "English": "Apple   Cedar apple rust",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungus Gymnosporangium juniperi-virginianae. Requires junipers as an alternate host.",
+      "Hindi": "Fungus Gymnosporangium juniperi-virginianae. Requires junipers as an alternate host.",
+      "Marathi": "Fungus Gymnosporangium juniperi-virginianae. Requires junipers as an alternate host."
+    },
+    "cure": {
+      "English": "Remove nearby juniper hosts. Use resistant varieties and fungicides.",
+      "Hindi": "Remove nearby juniper hosts. Use resistant varieties and fungicides.",
+      "Marathi": "Remove nearby juniper hosts. Use resistant varieties and fungicides."
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "English": "Apple   healthy",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "No disease present.",
+      "Hindi": "कोई बीमारी मौजूद नहीं है।",
+      "Marathi": "कोणताही आजार आढळला नाही."
+    },
+    "cure": {
+      "English": "Maintain good cultural practices for optimal health.",
+      "Hindi": "उत्तम स्वास्थ्य के लिए अच्छे कृषि अभ्यास बनाए रखें।",
+      "Marathi": "उत्तम आरोग्यासाठी चांगली शेती पद्धती ठेवाव्यात."
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "English": "Background without leaves",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "No disease or plant detected.",
+      "Hindi": "No disease or plant detected.",
+      "Marathi": "No disease or plant detected."
+    },
+    "cure": {
+      "English": "Not applicable.",
+      "Hindi": "लागू नहीं।",
+      "Marathi": "लागू नाही."
+    }
+  },
+  {
+    "id": 5,
+    "name": {
+      "English": "Blueberry   healthy",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "No disease present.",
+      "Hindi": "कोई बीमारी मौजूद नहीं है।",
+      "Marathi": "कोणताही आजार आढळला नाही."
+    },
+    "cure": {
+      "English": "Maintain good cultural practices for optimal health.",
+      "Hindi": "उत्तम स्वास्थ्य के लिए अच्छे कृषि अभ्यास बनाए रखें।",
+      "Marathi": "उत्तम आरोग्यासाठी चांगली शेती पद्धती ठेवाव्यात."
+    }
+  },
+  {
+    "id": 6,
+    "name": {
+      "English": "Cherry   Powdery mildew",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungus Podosphaera clandestina.",
+      "Hindi": "Fungus Podosphaera clandestina.",
+      "Marathi": "Fungus Podosphaera clandestina."
+    },
+    "cure": {
+      "English": "Apply sulfur-based or fungicide treatments. Ensure good air circulation.",
+      "Hindi": "Apply sulfur-based or fungicide treatments. Ensure good air circulation.",
+      "Marathi": "Apply sulfur-based or fungicide treatments. Ensure good air circulation."
+    }
+  },
+  {
+    "id": 7,
+    "name": {
+      "English": "Cherry   healthy",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "No disease present.",
+      "Hindi": "कोई बीमारी मौजूद नहीं है।",
+      "Marathi": "कोणताही आजार आढळला नाही."
+    },
+    "cure": {
+      "English": "Maintain good cultural practices for optimal health.",
+      "Hindi": "उत्तम स्वास्थ्य के लिए अच्छे कृषि अभ्यास बनाए रखें।",
+      "Marathi": "उत्तम आरोग्यासाठी चांगली शेती पद्धती ठेवाव्यात."
+    }
+  },
+  {
+    "id": 8,
+    "name": {
+      "English": "Corn   Cercospora leaf spot Gray leaf spot",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungus Cercospora zeae-maydis.",
+      "Hindi": "Fungus Cercospora zeae-maydis.",
+      "Marathi": "Fungus Cercospora zeae-maydis."
+    },
+    "cure": {
+      "English": "Use resistant hybrids and fungicide sprays.",
+      "Hindi": "Use resistant hybrids and fungicide sprays.",
+      "Marathi": "Use resistant hybrids and fungicide sprays."
+    }
+  },
+  {
+    "id": 9,
+    "name": {
+      "English": "Corn   Common rust",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungus Puccinia sorghi.",
+      "Hindi": "Fungus Puccinia sorghi.",
+      "Marathi": "Fungus Puccinia sorghi."
+    },
+    "cure": {
+      "English": "Apply fungicides and plant resistant varieties.",
+      "Hindi": "Apply fungicides and plant resistant varieties.",
+      "Marathi": "Apply fungicides and plant resistant varieties."
+    }
+  },
+  {
+    "id": 10,
+    "name": {
+      "English": "Corn   Northern Leaf Blight",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungus Exserohilum turcicum.",
+      "Hindi": "Fungus Exserohilum turcicum.",
+      "Marathi": "Fungus Exserohilum turcicum."
+    },
+    "cure": {
+      "English": "Use resistant varieties and fungicides.",
+      "Hindi": "Use resistant varieties and fungicides.",
+      "Marathi": "Use resistant varieties and fungicides."
+    }
+  },
+  {
+    "id": 11,
+    "name": {
+      "English": "Corn   healthy",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "No disease present.",
+      "Hindi": "कोई बीमारी मौजूद नहीं है।",
+      "Marathi": "कोणताही आजार आढळला नाही."
+    },
+    "cure": {
+      "English": "Maintain good cultural practices for optimal health.",
+      "Hindi": "उत्तम स्वास्थ्य के लिए अच्छे कृषि अभ्यास बनाए रखें।",
+      "Marathi": "उत्तम आरोग्यासाठी चांगली शेती पद्धती ठेवाव्यात."
+    }
+  },
+  {
+    "id": 12,
+    "name": {
+      "English": "Grape   Black rot",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungus Guignardia bidwellii.",
+      "Hindi": "Fungus Guignardia bidwellii.",
+      "Marathi": "Fungus Guignardia bidwellii."
+    },
+    "cure": {
+      "English": "Prune infected areas and apply fungicides.",
+      "Hindi": "Prune infected areas and apply fungicides.",
+      "Marathi": "Prune infected areas and apply fungicides."
+    }
+  },
+  {
+    "id": 13,
+    "name": {
+      "English": "Grape   Esca (Black Measles)",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungal complex including Phaeomoniella chlamydospora.",
+      "Hindi": "Fungal complex including Phaeomoniella chlamydospora.",
+      "Marathi": "Fungal complex including Phaeomoniella chlamydospora."
+    },
+    "cure": {
+      "English": "Remove infected wood. Avoid injuries to vines.",
+      "Hindi": "Remove infected wood. Avoid injuries to vines.",
+      "Marathi": "Remove infected wood. Avoid injuries to vines."
+    }
+  },
+  {
+    "id": 14,
+    "name": {
+      "English": "Grape   Leaf blight (Isariopsis Leaf Spot)",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungus Pseudocercospora vitis.",
+      "Hindi": "Fungus Pseudocercospora vitis.",
+      "Marathi": "Fungus Pseudocercospora vitis."
+    },
+    "cure": {
+      "English": "Apply fungicides and manage vineyard hygiene.",
+      "Hindi": "Apply fungicides and manage vineyard hygiene.",
+      "Marathi": "Apply fungicides and manage vineyard hygiene."
+    }
+  },
+  {
+    "id": 15,
+    "name": {
+      "English": "Grape   healthy",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "No disease present.",
+      "Hindi": "कोई बीमारी मौजूद नहीं है।",
+      "Marathi": "कोणताही आजार आढळला नाही."
+    },
+    "cure": {
+      "English": "Maintain good cultural practices for optimal health.",
+      "Hindi": "उत्तम स्वास्थ्य के लिए अच्छे कृषि अभ्यास बनाए रखें।",
+      "Marathi": "उत्तम आरोग्यासाठी चांगली शेती पद्धती ठेवाव्यात."
+    }
+  },
+  {
+    "id": 16,
+    "name": {
+      "English": "Orange   Haunglongbing (Citrus greening)",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Bacterium Candidatus Liberibacter spp. Spread by psyllid insects.",
+      "Hindi": "Bacterium Candidatus Liberibacter spp. Spread by psyllid insects.",
+      "Marathi": "Bacterium Candidatus Liberibacter spp. Spread by psyllid insects."
+    },
+    "cure": {
+      "English": "Control psyllid population and remove infected trees.",
+      "Hindi": "Control psyllid population and remove infected trees.",
+      "Marathi": "Control psyllid population and remove infected trees."
+    }
+  },
+  {
+    "id": 17,
+    "name": {
+      "English": "Peach   Bacterial spot",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Bacterium Xanthomonas campestris pv. pruni.",
+      "Hindi": "Bacterium Xanthomonas campestris pv. pruni.",
+      "Marathi": "Bacterium Xanthomonas campestris pv. pruni."
+    },
+    "cure": {
+      "English": "Use resistant varieties and copper-based bactericides.",
+      "Hindi": "Use resistant varieties and copper-based bactericides.",
+      "Marathi": "Use resistant varieties and copper-based bactericides."
+    }
+  },
+  {
+    "id": 18,
+    "name": {
+      "English": "Peach   healthy",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "No disease present.",
+      "Hindi": "कोई बीमारी मौजूद नहीं है।",
+      "Marathi": "कोणताही आजार आढळला नाही."
+    },
+    "cure": {
+      "English": "Maintain good cultural practices for optimal health.",
+      "Hindi": "उत्तम स्वास्थ्य के लिए अच्छे कृषि अभ्यास बनाए रखें।",
+      "Marathi": "उत्तम आरोग्यासाठी चांगली शेती पद्धती ठेवाव्यात."
+    }
+  },
+  {
+    "id": 19,
+    "name": {
+      "English": "Pepper, bell   Bacterial spot",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Bacterium Xanthomonas campestris pv. vesicatoria.",
+      "Hindi": "Bacterium Xanthomonas campestris pv. vesicatoria.",
+      "Marathi": "Bacterium Xanthomonas campestris pv. vesicatoria."
+    },
+    "cure": {
+      "English": "Use copper-based bactericides and resistant varieties.",
+      "Hindi": "Use copper-based bactericides and resistant varieties.",
+      "Marathi": "Use copper-based bactericides and resistant varieties."
+    }
+  },
+  {
+    "id": 20,
+    "name": {
+      "English": "Pepper, bell   healthy",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "No disease present.",
+      "Hindi": "कोई बीमारी मौजूद नहीं है।",
+      "Marathi": "कोणताही आजार आढळला नाही."
+    },
+    "cure": {
+      "English": "Maintain good cultural practices for optimal health.",
+      "Hindi": "उत्तम स्वास्थ्य के लिए अच्छे कृषि अभ्यास बनाए रखें।",
+      "Marathi": "उत्तम आरोग्यासाठी चांगली शेती पद्धती ठेवाव्यात."
+    }
+  },
+  {
+    "id": 21,
+    "name": {
+      "English": "Potato   Early blight",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungus Alternaria solani.",
+      "Hindi": "Fungus Alternaria solani.",
+      "Marathi": "Fungus Alternaria solani."
+    },
+    "cure": {
+      "English": "Apply fungicides and practice crop rotation.",
+      "Hindi": "Apply fungicides and practice crop rotation.",
+      "Marathi": "Apply fungicides and practice crop rotation."
+    }
+  },
+  {
+    "id": 22,
+    "name": {
+      "English": "Potato   Late blight",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Pathogen Phytophthora infestans.",
+      "Hindi": "Pathogen Phytophthora infestans.",
+      "Marathi": "Pathogen Phytophthora infestans."
+    },
+    "cure": {
+      "English": "Use resistant varieties and fungicides.",
+      "Hindi": "Use resistant varieties and fungicides.",
+      "Marathi": "Use resistant varieties and fungicides."
+    }
+  },
+  {
+    "id": 23,
+    "name": {
+      "English": "Potato   healthy",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "No disease present.",
+      "Hindi": "कोई बीमारी मौजूद नहीं है।",
+      "Marathi": "कोणताही आजार आढळला नाही."
+    },
+    "cure": {
+      "English": "Maintain good cultural practices for optimal health.",
+      "Hindi": "उत्तम स्वास्थ्य के लिए अच्छे कृषि अभ्यास बनाए रखें।",
+      "Marathi": "उत्तम आरोग्यासाठी चांगली शेती पद्धती ठेवाव्यात."
+    }
+  },
+  {
+    "id": 24,
+    "name": {
+      "English": "Raspberry   healthy",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "No disease present.",
+      "Hindi": "कोई बीमारी मौजूद नहीं है।",
+      "Marathi": "कोणताही आजार आढळला नाही."
+    },
+    "cure": {
+      "English": "Maintain good cultural practices for optimal health.",
+      "Hindi": "उत्तम स्वास्थ्य के लिए अच्छे कृषि अभ्यास बनाए रखें।",
+      "Marathi": "उत्तम आरोग्यासाठी चांगली शेती पद्धती ठेवाव्यात."
+    }
+  },
+  {
+    "id": 25,
+    "name": {
+      "English": "Soybean   healthy",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "No disease present.",
+      "Hindi": "कोई बीमारी मौजूद नहीं है।",
+      "Marathi": "कोणताही आजार आढळला नाही."
+    },
+    "cure": {
+      "English": "Maintain good cultural practices for optimal health.",
+      "Hindi": "उत्तम स्वास्थ्य के लिए अच्छे कृषि अभ्यास बनाए रखें।",
+      "Marathi": "उत्तम आरोग्यासाठी चांगली शेती पद्धती ठेवाव्यात."
+    }
+  },
+  {
+    "id": 26,
+    "name": {
+      "English": "Squash   Powdery mildew",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungal pathogens including Erysiphe cichoracearum.",
+      "Hindi": "Fungal pathogens including Erysiphe cichoracearum.",
+      "Marathi": "Fungal pathogens including Erysiphe cichoracearum."
+    },
+    "cure": {
+      "English": "Apply sulfur-based fungicides and maintain good air circulation.",
+      "Hindi": "Apply sulfur-based fungicides and maintain good air circulation.",
+      "Marathi": "Apply sulfur-based fungicides and maintain good air circulation."
+    }
+  },
+  {
+    "id": 27,
+    "name": {
+      "English": "Strawberry   Leaf scorch",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungus Diplocarpon earlianum.",
+      "Hindi": "Fungus Diplocarpon earlianum.",
+      "Marathi": "Fungus Diplocarpon earlianum."
+    },
+    "cure": {
+      "English": "Remove infected leaves and apply fungicides.",
+      "Hindi": "Remove infected leaves and apply fungicides.",
+      "Marathi": "Remove infected leaves and apply fungicides."
+    }
+  },
+  {
+    "id": 28,
+    "name": {
+      "English": "Strawberry   healthy",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "No disease present.",
+      "Hindi": "कोई बीमारी मौजूद नहीं है।",
+      "Marathi": "कोणताही आजार आढळला नाही."
+    },
+    "cure": {
+      "English": "Maintain good cultural practices for optimal health.",
+      "Hindi": "उत्तम स्वास्थ्य के लिए अच्छे कृषि अभ्यास बनाए रखें।",
+      "Marathi": "उत्तम आरोग्यासाठी चांगली शेती पद्धती ठेवाव्यात."
+    }
+  },
+  {
+    "id": 29,
+    "name": {
+      "English": "Tomato   Bacterial spot",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Bacterium Xanthomonas spp.",
+      "Hindi": "Bacterium Xanthomonas spp.",
+      "Marathi": "Bacterium Xanthomonas spp."
+    },
+    "cure": {
+      "English": "Apply copper-based bactericides and practice crop rotation.",
+      "Hindi": "Apply copper-based bactericides and practice crop rotation.",
+      "Marathi": "Apply copper-based bactericides and practice crop rotation."
+    }
+  },
+  {
+    "id": 30,
+    "name": {
+      "English": "Tomato   Early blight",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungus Alternaria solani.",
+      "Hindi": "Fungus Alternaria solani.",
+      "Marathi": "Fungus Alternaria solani."
+    },
+    "cure": {
+      "English": "Apply fungicides and remove infected leaves.",
+      "Hindi": "Apply fungicides and remove infected leaves.",
+      "Marathi": "Apply fungicides and remove infected leaves."
+    }
+  },
+  {
+    "id": 31,
+    "name": {
+      "English": "Tomato   Late blight",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Pathogen Phytophthora infestans.",
+      "Hindi": "Pathogen Phytophthora infestans.",
+      "Marathi": "Pathogen Phytophthora infestans."
+    },
+    "cure": {
+      "English": "Use resistant varieties and fungicides.",
+      "Hindi": "Use resistant varieties and fungicides.",
+      "Marathi": "Use resistant varieties and fungicides."
+    }
+  },
+  {
+    "id": 32,
+    "name": {
+      "English": "Tomato   Leaf Mold",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungus Passalora fulva.",
+      "Hindi": "Fungus Passalora fulva.",
+      "Marathi": "Fungus Passalora fulva."
+    },
+    "cure": {
+      "English": "Apply fungicides and ensure good ventilation.",
+      "Hindi": "Apply fungicides and ensure good ventilation.",
+      "Marathi": "Apply fungicides and ensure good ventilation."
+    }
+  },
+  {
+    "id": 33,
+    "name": {
+      "English": "Tomato   Septoria leaf spot",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungus Septoria lycopersici.",
+      "Hindi": "Fungus Septoria lycopersici.",
+      "Marathi": "Fungus Septoria lycopersici."
+    },
+    "cure": {
+      "English": "Remove infected leaves and apply fungicides.",
+      "Hindi": "Remove infected leaves and apply fungicides.",
+      "Marathi": "Remove infected leaves and apply fungicides."
+    }
+  },
+  {
+    "id": 34,
+    "name": {
+      "English": "Tomato   Spider mites Two-spotted spider mite",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Spider mites Tetranychus urticae.",
+      "Hindi": "Spider mites Tetranychus urticae.",
+      "Marathi": "Spider mites Tetranychus urticae."
+    },
+    "cure": {
+      "English": "Use miticides or insecticidal soaps.",
+      "Hindi": "Use miticides or insecticidal soaps.",
+      "Marathi": "Use miticides or insecticidal soaps."
+    }
+  },
+  {
+    "id": 35,
+    "name": {
+      "English": "Tomato   Target Spot",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Fungus Corynespora cassiicola.",
+      "Hindi": "Fungus Corynespora cassiicola.",
+      "Marathi": "Fungus Corynespora cassiicola."
+    },
+    "cure": {
+      "English": "Apply fungicides and ensure good air circulation.",
+      "Hindi": "Apply fungicides and ensure good air circulation.",
+      "Marathi": "Apply fungicides and ensure good air circulation."
+    }
+  },
+  {
+    "id": 36,
+    "name": {
+      "English": "Tomato   Tomato Yellow Leaf Curl Virus",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Virus spread by whiteflies.",
+      "Hindi": "Virus spread by whiteflies.",
+      "Marathi": "Virus spread by whiteflies."
+    },
+    "cure": {
+      "English": "Control whitefly population and use resistant varieties.",
+      "Hindi": "Control whitefly population and use resistant varieties.",
+      "Marathi": "Control whitefly population and use resistant varieties."
+    }
+  },
+  {
+    "id": 37,
+    "name": {
+      "English": "Tomato   Tomato mosaic virus",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "Virus transmitted through contact and contaminated tools.",
+      "Hindi": "Virus transmitted through contact and contaminated tools.",
+      "Marathi": "Virus transmitted through contact and contaminated tools."
+    },
+    "cure": {
+      "English": "Remove infected plants and sterilize tools.",
+      "Hindi": "Remove infected plants and sterilize tools.",
+      "Marathi": "Remove infected plants and sterilize tools."
+    }
+  },
+  {
+    "id": 38,
+    "name": {
+      "English": "Tomato   healthy",
+      "Hindi": "",
+      "Marathi": ""
+    },
+    "cause": {
+      "English": "No disease present.",
+      "Hindi": "कोई बीमारी मौजूद नहीं है।",
+      "Marathi": "कोणताही आजार आढळला नाही."
+    },
+    "cure": {
+      "English": "Maintain good cultural practices for optimal health.",
+      "Hindi": "उत्तम स्वास्थ्य के लिए अच्छे कृषि अभ्यास बनाए रखें।",
+      "Marathi": "उत्तम आरोग्यासाठी चांगली शेती पद्धती ठेवाव्यात."
+    }
+  }
 ]
